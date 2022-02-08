@@ -1,0 +1,10 @@
+package com.company;
+
+public class sorting_array_of_string {
+    public static void main(String[] args){
+        String arr[]={"Java ","Python ","C++ ","Pascal ","Basic ","Ada ","Smalltalk "};
+        java.util.Arrays.sort(arr);
+        for(String x:arr)
+            System.out.print(x);
+    }
+}
